@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 def call(message){
-    String data = this.message
+    String data = message
     echo "INFO: ${message}"
     warning(data)
 }
