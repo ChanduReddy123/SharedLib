@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-def info(message){
+def info(String message){
     String data = message
     echo "INFO: ${message}"
     warning(data)
