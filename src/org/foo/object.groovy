@@ -1,4 +1,5 @@
 #!/usr/bin/env groovy
+package org.foo
 
 class testing{
     String test="testing"
