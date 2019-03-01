@@ -1,10 +1,7 @@
 #!/usr/bin/env groovy
 
 def info(String message){
-    println test
-    test="reddy"
-    println "this is after changing the value "+test
-    String data = message
+    println "this is after changing the value "+message
     data = "you have entered "+data
     println data;
     
