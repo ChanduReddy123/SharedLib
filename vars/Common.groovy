@@ -1,7 +1,5 @@
 #!/usr/bin/env groovy
 
-class testing{
-    String test="testing"
 def info(String message){
     println test
     test="reddy"
@@ -13,5 +11,4 @@ def info(String message){
 }
 def warning(message) {
     echo "WARNING: ${message}"
-}
 }
