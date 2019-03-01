@@ -10,5 +10,6 @@ def info(String message){
     
 }
 def warning(message) {
-    echo "WARNING: ${message}"
+    //echo "WARNING: ${message}"
+    println(message)
 }
