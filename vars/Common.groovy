@@ -2,7 +2,7 @@
 
 def info(String message){
     println "this is after changing the value "+message
-    data = "you have entered "+data
+    String data = "you have entered "+message
     println data;
     
 }
