@@ -26,7 +26,7 @@ class chandu{
     def chandu(){
 
     }
-    public def TestChandu()
+    public TestChandu()
     {
         println "this is in chandu class and Test chandu method"
     }
