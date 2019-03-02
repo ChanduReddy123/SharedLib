@@ -1,13 +1,13 @@
 #!/usr/bin/env groovy
 
 
-import src.org.TestingClass
+//import src.org.TestingClass
 def info(String call,String params){
     //println call
     println "creating the object for testingclass"
-    def testing = new TestingClass()
+    def testing = new chandu()
     println testing
-    testing.Method1()
+    testing.TestChandu()
     
 }
 def warning(message) {
@@ -20,4 +20,14 @@ def testing(testing)
 {
     println "this is in testing method "
     println 'testing'
+}
+
+class chandu{
+    def chandu(){
+
+    }
+    def TestChandu()
+    {
+        println "this is in chandu class and Test chandu method"
+    }
 }
