@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 package com.org.foo
 
-class testing{
+class TestingClass{
     String test="testing"
     def info(String message){
         println test
