@@ -1,7 +1,9 @@
 #!/usr/bin/env groovy
 
 def info(String message){
-    message('heloo')
+    if(message == 'warning'){
+        warning('called')
+    }
     
 }
 def warning(message) {
