@@ -1,12 +1,12 @@
 #!/usr/bin/env groovy
 
 
-
+import org.TestingClass
 def info(String call,String params){
     //println call
     println "creating the object for testingclass"
-    def testing = new TestingClass.Method1()
-    println "created"
+    def testing = new TestingClass()
+    println testing
     testing.Method1()
     
 }
