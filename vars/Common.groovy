@@ -6,6 +6,9 @@ def info(String call,String params){
         println call
         warning(params)
     }
+    if(call == 'testing'){
+        testing(params)
+    }
     
 }
 def warning(message) {
