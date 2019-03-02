@@ -1,4 +1,4 @@
-class testClass{
+public static class testClass{
    public void Testing(){
        println("This is for testing ")
    }
