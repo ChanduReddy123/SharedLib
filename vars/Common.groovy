@@ -8,6 +8,7 @@ def info(String call,String params){
 }
 def warning(message) {
     //echo "WARNING: ${message}"
+    println "this is in warning method"
     println(message)
 }
 
