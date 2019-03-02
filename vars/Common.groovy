@@ -13,5 +13,6 @@ def warning(message) {
 
 def testing(testing)
 {
+    println "this is in testing method "
     println 'testing'
 }
