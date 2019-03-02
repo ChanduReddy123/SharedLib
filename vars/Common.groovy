@@ -3,8 +3,10 @@
 
 
 def info(String call,String params){
-    println call
+    //println call
+    println "creating the object for testingclass"
     def testing = new TestingClass()
+    println "created"
     testing.Method1()
     
 }
