@@ -10,3 +10,8 @@ def warning(message) {
     //echo "WARNING: ${message}"
     println(message)
 }
+
+def testing(testing)
+{
+    println 'testing'
+}
