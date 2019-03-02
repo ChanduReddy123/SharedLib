@@ -1,4 +1,10 @@
 #!/usr/bin/env groovy
+class chandu{
+    def chandu(){
+        println 'this is in chandu class'
+    }
+}
+
 
 def info(String call,String params){
     println call
