@@ -1,6 +1,7 @@
 #!/usr/bin/env groovy
 
 def info(String call,String params){
+    println call
     if(call == 'warning'){
         println call
         warning(params)
