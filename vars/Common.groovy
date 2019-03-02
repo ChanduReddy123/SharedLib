@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 
-import org.TestingClass
+import src.org.TestingClass
 def info(String call,String params){
     //println call
     println "creating the object for testingclass"
