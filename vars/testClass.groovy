@@ -3,7 +3,7 @@ class testClass{
        println("This is for testing ")
    }
     public void Testing2(){
-        println("This is for testing 2")
+        println "This is for testing 2"
     }
 
 }
