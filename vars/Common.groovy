@@ -1,8 +1,8 @@
 #!/usr/bin/env groovy
 
-def info(String message){
-    if(message == 'warning'){
-        warning('called')
+def info(String call,String params){
+    if(call == 'warning'){
+        warning(params)
     }
     
 }
