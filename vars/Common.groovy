@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-class chandu{
+public class chandu{
     def chandu(){
         println 'this is in chandu class'
     }
