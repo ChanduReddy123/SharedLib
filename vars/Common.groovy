@@ -2,6 +2,7 @@
 
 def info(String call,String params){
     if(call == 'warning'){
+        println call
         warning(params)
     }
     
