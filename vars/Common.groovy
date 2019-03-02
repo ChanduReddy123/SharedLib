@@ -5,7 +5,7 @@
 def info(String call,String params){
     //println call
     println "creating the object for testingclass"
-    def testing = new TestingClass()
+    def testing = new TestingClass.Method1()
     println "created"
     testing.Method1()
     
