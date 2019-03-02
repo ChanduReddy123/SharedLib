@@ -1,20 +1,11 @@
 #!/usr/bin/env groovy
-public class chandu{
-    def chandu(){
-        println 'this is in chandu class'
-    }
-}
+
 
 
 def info(String call,String params){
     println call
-    if(call == 'warning'){
-        println call
-        warning(params)
-    }
-    if(call == 'testing'){
-        testing(params)
-    }
+    def testing = new TestingClass()
+    testing.Method1()
     
 }
 def warning(message) {
