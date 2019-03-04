@@ -1,7 +1,10 @@
 #!/usr/bin/env groovy
 
 
-//import src.org.TestingClass
+import org.TestingClass
+
+
+
 def info(String call,String params){
     //println call
     println "creating the object for testingclass"
@@ -18,6 +21,8 @@ def warning(message) {
 
 def testing(testing)
 {
+    Testingclass Help = new TestingClass()
+    
     println "this is in testing method "
     println 'testing'
 }
