@@ -1,8 +1,7 @@
 def call(branch){
-  def list= []
   if(branch == 'master'){
-    list[0] = 'prod'
-    list[1] = getIP(branch)
+    def list = getIP(branch)
+    return list
   }
 }
 
