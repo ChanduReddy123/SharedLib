@@ -3,7 +3,7 @@ def call(){
 }
 
 def  getEnvironment(){
-  def branch = "${BRANCH_NAME}"
+  def branch = "master"
     def envdetails = [:]
     if(branch == "master"){
         envdetails['dbname'] = "ProdDBName"
