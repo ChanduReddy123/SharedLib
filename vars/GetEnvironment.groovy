@@ -13,7 +13,7 @@ def  getEnvironment(){
         envdetails['port'] = "masterdbport"
         envdetails['bcpoint'] = "ProdBCEndPoint"
         envdetails['pem'] = "pemfile"
-        envdetails['IP'] = "ProdIp"
+        envdetails['IP'] = "Beta"
         
         return envdetails
     }
