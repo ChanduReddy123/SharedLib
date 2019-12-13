@@ -6,37 +6,37 @@ def  getEnvironment(){
   def branch = "${BRANCH_NAME}"
     def envdetails = [:]
     if(branch == "master"){
-        envdetails['dbname'] = "masterdb"
-        envdetails['endpoint'] = "masterendpoint"
-        envdetails['password'] = "masterpassword"
-        envdetails['username'] = "masterdbusername"
+        envdetails['dbname'] = "ProdDBName"
+        envdetails['endpoint'] = "ProdDBEndPoint"
+        envdetails['password'] = "ProdDBPassword"
+        envdetails['username'] = "ProdDBUserName"
         envdetails['port'] = "masterdbport"
-        envdetails['bcpoint'] = "masterbcpoint"
+        envdetails['bcpoint'] = "ProdBCEndPoint"
         envdetails['pem'] = "pemfile"
         envdetails['IP'] = "ProdIp"
         
         return envdetails
     }
     else if(branch == "dev"){
-        envdetails['dbname'] = "devdb"
-        envdetails['endpoint'] = "devendpoint"
-        envdetails['password'] = "devpassword"
-        envdetails['username'] = "devdbusername"
+        envdetails['dbname'] = "DevDBName"
+        envdetails['endpoint'] = "DevDBEndPoint"
+        envdetails['password'] = "DevDBPassword"
+        envdetails['username'] = "DevDBUserName"
         envdetails['port'] = "devdbport"
-        envdetails['bcpoint'] = "devbcpoint"
+        envdetails['bcpoint'] = "DevBCEndPoint"
         envdetails['pem'] = "pemfile"
         envdetails['IP'] = "DevIp"
         return envdetails
     }
     else if(branch == "stage"){
-        envdetails['dbname'] = "stagedb"
-        envdetails['endpoint'] = "stageendpoint"
-        envdetails['password'] = "stagepassword"
-        envdetails['username'] = "stagedbusername"
+        envdetails['dbname'] = "StgDBName"
+        envdetails['endpoint'] = "StgDBEndPoint"
+        envdetails['password'] = "StgDBPassword"
+        envdetails['username'] = "ProdDBUserName"
         envdetails['port'] = "stagedbport"
-        envdetails['bcpoint'] = "stagebcpoint"
+        envdetails['bcpoint'] = "StgBCEndPoint"
         envdetails['pem'] = "pemfile"
-        envdetails['IP'] = "stageIp"
+        envdetails['IP'] = "StgIp"
         return envdetails
     }
   else{
