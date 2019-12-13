@@ -12,6 +12,9 @@ def  getEnvironment(){
         envdetails['username'] = "masterdbusername"
         envdetails['port'] = "masterdbport"
         envdetails['bcpoint'] = "masterbcpoint"
+        envdetails['pem'] = "pemfile"
+        envdetails['IP'] = "ProdIp"
+        
         return envdetails
     }
     else if(branch == "dev"){
@@ -21,6 +24,8 @@ def  getEnvironment(){
         envdetails['username'] = "devdbusername"
         envdetails['port'] = "devdbport"
         envdetails['bcpoint'] = "devbcpoint"
+        envdetails['pem'] = "pemfile"
+        envdetails['IP'] = "DevIp"
         return envdetails
     }
     else if(branch == "stage"){
@@ -30,6 +35,8 @@ def  getEnvironment(){
         envdetails['username'] = "stagedbusername"
         envdetails['port'] = "stagedbport"
         envdetails['bcpoint'] = "stagebcpoint"
+        envdetails['pem'] = "pemfile"
+        envdetails['IP'] = "stageIp"
         return envdetails
     }
   else{
