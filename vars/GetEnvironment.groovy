@@ -3,7 +3,7 @@ def call(){
 }
 
 def  getEnvironment(){
-  def branch = "master"
+  def branch = "${BRANCH_NAME}"
     def envdetails = [:]
     if(branch == "master"){
         envdetails['dbname'] = "ProdDBName"
@@ -14,6 +14,7 @@ def  getEnvironment(){
         envdetails['bcpoint'] = "ProdBCEndPoint"
         envdetails['pem'] = "pemfile"
         envdetails['IP'] = "Beta"
+      envdetails['branch'] = "${branch}"
         
         return envdetails
     }
@@ -26,6 +27,7 @@ def  getEnvironment(){
         envdetails['bcpoint'] = "DevBCEndPoint"
         envdetails['pem'] = "pemfile"
         envdetails['IP'] = "DevIp"
+      envdetails['branch'] = "${branch}"
         return envdetails
     }
     else if(branch == "stage"){
