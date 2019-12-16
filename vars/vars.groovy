@@ -1,4 +1,4 @@
 def call(){
-def name = "chandu"
-def age = "23"
+env.name = "chandu"
+env.age = "23"
 }
